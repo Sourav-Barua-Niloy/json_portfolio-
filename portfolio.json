@@ -1,10 +1,378 @@
 {
-  "name": "Sourav Portfolio",
-  "projects": [
-    {
-      "title": "E-ticket App",
-      "type": "UI/UX",
-      "year": 2025
+  "portfolio": {
+    "meta": {
+      "name": "Sourav Portfolio",
+      "owner": "Sourav Barua",
+      "email": "baruasourav.office@gmail.com",
+      "location": "Dhaka, Bangladesh",
+      "tagline": "Data · Design · Dev",
+      "description": "Data Analyst, Full Stack Developer, and UI/UX Designer. Building data-driven solutions, shipping production-grade web apps, and crafting compelling visual experiences.",
+      "status": "Available for Work",
+      "social": {
+        "github": "https://github.com",
+        "linkedin": "https://linkedin.com",
+        "twitter": "https://twitter.com"
+      },
+      "cv": "/cv-sourav-barua.pdf",
+      "stats": {
+        "yearsOfExperience": 5,
+        "projectsCompleted": 30
+      }
+    },
+
+    "navigation": [
+      { "label": "Home",       "href": "hero"       },
+      { "label": "Experience", "href": "experience" },
+      { "label": "Projects",   "href": "projects"   },
+      { "label": "Skills",     "href": "skills"     },
+      { "label": "Contact",    "href": "contact"    }
+    ],
+
+    "experience": [
+      {
+        "id": "1",
+        "role": "Senior Data Analyst",
+        "company": "TechVision Analytics",
+        "duration": "Jan 2023 – Present",
+        "location": "Dhaka, Bangladesh",
+        "type": "Full-time",
+        "current": true,
+        "description": [
+          "Led data pipeline development for 5+ enterprise clients, reducing reporting time by 60%",
+          "Designed interactive Power BI dashboards tracking KPIs for C-suite decision making",
+          "Built predictive models using Python & scikit-learn achieving 87% accuracy on churn prediction",
+          "Mentored a team of 3 junior analysts on best practices in data wrangling and visualization"
+        ],
+        "technologies": ["Python", "SQL", "Power BI", "Tableau", "scikit-learn", "Pandas"]
+      },
+      {
+        "id": "2",
+        "role": "Full Stack Developer",
+        "company": "NexGen Solutions",
+        "duration": "Mar 2021 – Dec 2022",
+        "location": "Dhaka, Bangladesh",
+        "type": "Full-time",
+        "current": false,
+        "description": [
+          "Built and shipped 8+ production web applications using React, Node.js, and PostgreSQL",
+          "Architected RESTful APIs serving 50k+ daily active users with 99.9% uptime",
+          "Implemented CI/CD pipelines reducing deployment time from hours to minutes",
+          "Collaborated closely with UI/UX team to deliver pixel-perfect, accessible interfaces"
+        ],
+        "technologies": ["React", "Node.js", "TypeScript", "PostgreSQL", "Docker", "AWS"]
+      },
+      {
+        "id": "3",
+        "role": "UI/UX & Graphic Designer",
+        "company": "Creative Studio BD",
+        "duration": "Jun 2019 – Feb 2021",
+        "location": "Dhaka, Bangladesh",
+        "type": "Full-time",
+        "current": false,
+        "description": [
+          "Designed brand identities for 30+ clients across retail, healthcare, and fintech sectors",
+          "Created wireframes and prototypes using Figma, reducing developer rework by 40%",
+          "Produced marketing collateral including social media assets, banners, and print materials",
+          "Established a design system used across the agency's client projects"
+        ],
+        "technologies": ["Figma", "Adobe Illustrator", "Photoshop", "After Effects", "InDesign"]
+      },
+      {
+        "id": "4",
+        "role": "Research Assistant",
+        "company": "BRAC University",
+        "duration": "Jan 2018 – May 2019",
+        "location": "Dhaka, Bangladesh",
+        "type": "Part-time",
+        "current": false,
+        "description": [
+          "Assisted in data collection and analysis for 2 published research papers",
+          "Conducted literature reviews and synthesized findings on machine learning applications",
+          "Developed data cleaning scripts in Python reducing preprocessing time by 70%"
+        ],
+        "technologies": ["Python", "R", "SPSS", "LaTeX", "Excel"]
+      }
+    ],
+
+    "projects": {
+      "categories": {
+        "data-analysis": {
+          "label": "Data Analysis & Research",
+          "emoji": "📊",
+          "subCategories": {
+            "data-analysis-sub": { "label": "Data Analysis" },
+            "research-projects":  { "label": "Research Projects" }
+          }
+        },
+        "graphics-design": {
+          "label": "Graphics Design",
+          "emoji": "🎨",
+          "subCategories": {
+            "web-design":     { "label": "Web Design" },
+            "others-design":  { "label": "Others" }
+          }
+        },
+        "web-development": {
+          "label": "Web Development",
+          "emoji": "💻",
+          "subCategories": {
+            "full-stack": { "label": "Full Stack" },
+            "frontend":   { "label": "Frontend Projects" },
+            "backend":    { "label": "Backend Projects" }
+          }
+        }
+      },
+      "items": [
+        {
+          "id": "da1",
+          "title": "E-Commerce Sales Dashboard",
+          "description": "Interactive Power BI dashboard analyzing $2M+ in annual sales data with trend forecasting, customer segmentation, and regional heatmaps.",
+          "tags": ["Power BI", "Python", "SQL", "DAX"],
+          "category": "data-analysis",
+          "subCategory": "data-analysis-sub",
+          "featured": true,
+          "liveUrl": "#",
+          "githubUrl": "#"
+        },
+        {
+          "id": "da2",
+          "title": "Customer Churn Prediction",
+          "description": "ML model predicting customer churn with 87% accuracy using gradient boosting. Deployed as an API endpoint for real-time scoring.",
+          "tags": ["Python", "scikit-learn", "XGBoost", "FastAPI"],
+          "category": "data-analysis",
+          "subCategory": "data-analysis-sub",
+          "featured": false,
+          "liveUrl": "#",
+          "githubUrl": "#"
+        },
+        {
+          "id": "da3",
+          "title": "Supply Chain Analytics Platform",
+          "description": "End-to-end analytics solution for tracking supplier performance, inventory turnover, and delivery SLAs across 200+ vendors.",
+          "tags": ["Tableau", "SQL", "Python", "Pandas"],
+          "category": "data-analysis",
+          "subCategory": "data-analysis-sub",
+          "featured": false,
+          "liveUrl": null,
+          "githubUrl": "#"
+        },
+        {
+          "id": "rp1",
+          "title": "Social Media Sentiment Analysis",
+          "description": "NLP-based research analyzing public sentiment on climate policy across Twitter, Reddit, and news articles using BERT fine-tuning.",
+          "tags": ["NLP", "BERT", "Python", "Hugging Face"],
+          "category": "data-analysis",
+          "subCategory": "research-projects",
+          "featured": true,
+          "liveUrl": null,
+          "githubUrl": "#"
+        },
+        {
+          "id": "rp2",
+          "title": "Urban Traffic Pattern Study",
+          "description": "Academic research on Dhaka traffic patterns using computer vision and YOLO object detection on 500+ hours of CCTV footage.",
+          "tags": ["Computer Vision", "YOLO", "OpenCV", "Python"],
+          "category": "data-analysis",
+          "subCategory": "research-projects",
+          "featured": false,
+          "liveUrl": null,
+          "githubUrl": "#"
+        },
+        {
+          "id": "wd1",
+          "title": "FinTech App UI Design",
+          "description": "Complete UI/UX design for a mobile banking application with 80+ screens, design system, and interactive Figma prototype.",
+          "tags": ["Figma", "UI/UX", "Design System", "Prototyping"],
+          "category": "graphics-design",
+          "subCategory": "web-design",
+          "featured": true,
+          "liveUrl": "#",
+          "githubUrl": null
+        },
+        {
+          "id": "wd2",
+          "title": "SaaS Landing Page Design",
+          "description": "High-converting landing page design for a project management SaaS. Achieved 34% improvement in conversion rate after A/B testing.",
+          "tags": ["Figma", "Webflow", "Motion Design", "CRO"],
+          "category": "graphics-design",
+          "subCategory": "web-design",
+          "featured": false,
+          "liveUrl": "#",
+          "githubUrl": null
+        },
+        {
+          "id": "wd3",
+          "title": "E-Learning Platform Design",
+          "description": "Full design overhaul for an e-learning platform serving 10,000+ students. Improved task completion rates by 45%.",
+          "tags": ["Figma", "User Research", "Accessibility", "Prototyping"],
+          "category": "graphics-design",
+          "subCategory": "web-design",
+          "featured": false,
+          "liveUrl": "#",
+          "githubUrl": null
+        },
+        {
+          "id": "go1",
+          "title": "Brand Identity — TechBD",
+          "description": "Complete brand identity design including logo, color system, typography, stationery, and brand guidelines document for a tech startup.",
+          "tags": ["Illustrator", "Brand Identity", "Logo Design", "Print"],
+          "category": "graphics-design",
+          "subCategory": "others-design",
+          "featured": true,
+          "liveUrl": null,
+          "githubUrl": null
+        },
+        {
+          "id": "go2",
+          "title": "Motion Graphics Package",
+          "description": "Animated social media templates and intro/outro animations for a YouTube channel with 200k+ subscribers.",
+          "tags": ["After Effects", "Motion Graphics", "Social Media"],
+          "category": "graphics-design",
+          "subCategory": "others-design",
+          "featured": false,
+          "liveUrl": null,
+          "githubUrl": null
+        },
+        {
+          "id": "fs1",
+          "title": "Project Management Platform",
+          "description": "Full-featured project management app with real-time collaboration, Kanban boards, time tracking, and team analytics. 500+ active users.",
+          "tags": ["React", "Node.js", "PostgreSQL", "WebSocket", "Docker"],
+          "category": "web-development",
+          "subCategory": "full-stack",
+          "featured": true,
+          "liveUrl": "#",
+          "githubUrl": "#"
+        },
+        {
+          "id": "fs2",
+          "title": "Healthcare Appointment System",
+          "description": "Telemedicine platform with video consultation, appointment booking, prescription management, and patient records. HIPAA-compliant architecture.",
+          "tags": ["Next.js", "Prisma", "PostgreSQL", "WebRTC", "Stripe"],
+          "category": "web-development",
+          "subCategory": "full-stack",
+          "featured": false,
+          "liveUrl": "#",
+          "githubUrl": "#"
+        },
+        {
+          "id": "fe1",
+          "title": "Real-Time Crypto Dashboard",
+          "description": "Live cryptocurrency tracking dashboard with WebSocket price feeds, portfolio management, and interactive charts for 200+ coins.",
+          "tags": ["React", "TypeScript", "Recharts", "WebSocket", "Redux"],
+          "category": "web-development",
+          "subCategory": "frontend",
+          "featured": true,
+          "liveUrl": "#",
+          "githubUrl": "#"
+        },
+        {
+          "id": "fe2",
+          "title": "Interactive Data Visualization Library",
+          "description": "A reusable React component library for data visualization with 20+ chart types, animations, and accessibility built-in.",
+          "tags": ["React", "D3.js", "TypeScript", "Storybook"],
+          "category": "web-development",
+          "subCategory": "frontend",
+          "featured": false,
+          "liveUrl": null,
+          "githubUrl": "#"
+        },
+        {
+          "id": "be1",
+          "title": "Microservices API Gateway",
+          "description": "Scalable API gateway with JWT auth, rate limiting, request routing, and distributed tracing. Handles 100k+ requests/day.",
+          "tags": ["Node.js", "Express", "Redis", "Docker", "Kubernetes"],
+          "category": "web-development",
+          "subCategory": "backend",
+          "featured": true,
+          "liveUrl": null,
+          "githubUrl": "#"
+        },
+        {
+          "id": "be2",
+          "title": "ML Model Serving API",
+          "description": "FastAPI-based service for deploying and serving machine learning models with automatic batching, caching, and monitoring.",
+          "tags": ["Python", "FastAPI", "MLflow", "Redis", "Docker"],
+          "category": "web-development",
+          "subCategory": "backend",
+          "featured": false,
+          "liveUrl": null,
+          "githubUrl": "#"
+        }
+      ]
+    },
+
+    "skills": [
+      {
+        "id": "data",
+        "category": "Data & Analytics",
+        "emoji": "📊",
+        "accentColor": "#C8F04A",
+        "skills": [
+          { "id": "s1", "name": "Python",          "level": 92 },
+          { "id": "s2", "name": "SQL",             "level": 90 },
+          { "id": "s3", "name": "Power BI",        "level": 88 },
+          { "id": "s4", "name": "Tableau",         "level": 82 },
+          { "id": "s5", "name": "Machine Learning","level": 80 },
+          { "id": "s6", "name": "Pandas / NumPy",  "level": 88 }
+        ]
+      },
+      {
+        "id": "frontend",
+        "category": "Frontend",
+        "emoji": "🎨",
+        "accentColor": "#60A5FA",
+        "skills": [
+          { "id": "s7",  "name": "React / Next.js", "level": 90 },
+          { "id": "s8",  "name": "TypeScript",       "level": 85 },
+          { "id": "s9",  "name": "Tailwind CSS",     "level": 90 },
+          { "id": "s10", "name": "Redux / Zustand",  "level": 82 },
+          { "id": "s11", "name": "Framer Motion",    "level": 75 }
+        ]
+      },
+      {
+        "id": "backend",
+        "category": "Backend",
+        "emoji": "⚙️",
+        "accentColor": "#A78BFA",
+        "skills": [
+          { "id": "s12", "name": "Node.js",          "level": 85 },
+          { "id": "s13", "name": "FastAPI / Django", "level": 80 },
+          { "id": "s14", "name": "PostgreSQL",       "level": 85 },
+          { "id": "s15", "name": "Docker / K8s",     "level": 75 },
+          { "id": "s16", "name": "REST / GraphQL",   "level": 82 }
+        ]
+      },
+      {
+        "id": "design",
+        "category": "Design",
+        "emoji": "✏️",
+        "accentColor": "#F472B6",
+        "skills": [
+          { "id": "s17", "name": "Figma",            "level": 88 },
+          { "id": "s18", "name": "Adobe Illustrator","level": 82 },
+          { "id": "s19", "name": "Photoshop",        "level": 80 },
+          { "id": "s20", "name": "After Effects",    "level": 72 },
+          { "id": "s21", "name": "UI/UX Research",   "level": 85 }
+        ]
+      }
+    ],
+
+    "techCloud": [
+      "Python", "TypeScript", "React", "Node.js", "SQL", "Docker",
+      "AWS", "Figma", "Power BI", "Tableau", "FastAPI", "PostgreSQL",
+      "Redis", "scikit-learn", "TensorFlow", "Kubernetes"
+    ],
+
+    "contact": {
+      "email": "baruasourav.office@gmail.com",
+      "phone": "+880 1XXX-XXXXXX",
+      "location": "Dhaka, Bangladesh",
+      "availability": "Open to freelance projects, full-time roles, and exciting collaborations.",
+      "social": {
+        "github": "https://github.com",
+        "linkedin": "https://linkedin.com"
+      }
     }
-  ]
+  }
 }
