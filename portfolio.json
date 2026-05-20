@@ -31,10 +31,10 @@
     "experience": [
       {
         "id": "1",
-        "role": "Trainee Web Developer 123",
-        "company": "TechVision Analytics",
-        "duration": "Jan 2023 – Present",
-        "location": "Dhaka, Bangladesh",
+        "role": "Trainee Web Developer",
+        "company": "SoftRobotics",
+        "duration": "March 2026 – Present",
+        "location": "Chittagong, Bangladesh",
         "type": "Full-time",
         "current": true,
         "description": [
@@ -43,7 +43,7 @@
           "Built predictive models using Python & scikit-learn achieving 87% accuracy on churn prediction",
           "Mentored a team of 3 junior analysts on best practices in data wrangling and visualization"
         ],
-        "technologies": ["Python", "SQL", "Power BI", "Tableau", "scikit-learn", "Pandas"]
+        "technologies": ["React", "TypeScript", "Node JS", "", "", ""]
       },
       {
         "id": "2",
