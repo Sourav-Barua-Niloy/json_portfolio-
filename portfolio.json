@@ -49,19 +49,19 @@
       },
       {
         "id": "2",
-        "role": "Full Stack Developer",
-        "company": "NexGen Solutions",
-        "duration": "Mar 2021 – Dec 2022",
-        "location": "Dhaka, Bangladesh",
+        "role": "Fellow –ICT",
+        "company": " ActionAid Bangladesh",
+        "duration": "May 2025 –  January 2026",
+        "location": "Cox's Bazar, Bangladesh",
         "type": "Full-time",
         "current": false,
         "description": [
-          "Built and shipped 8+ production web applications using React, Node.js, and PostgreSQL",
-          "Architected RESTful APIs serving 50k+ daily active users with 99.9% uptime",
-          "Implemented CI/CD pipelines reducing deployment time from hours to minutes",
-          "Collaborated closely with UI/UX team to deliver pixel-perfect, accessible interfaces"
+          "Configured, maintained, and troubleshot LAN/WAN networks, MikroTik routers, wireless access points, and VPN to ensure uninterrupted connectivity for all office and camp-based users. ",
+          "Delivered desk-to-desk, remote, and field-level technical support for hardware, software, and OS issues, resolving user problems via email, phone, and in-person across Cox's Bazar, Teknaf, and camp offices. ",
+          "Administered Microsoft 365 services including Teams, OneDrive, SharePoint, and Outlook; managed Active Directory, DHCP, and user accounts in compliance with organizational IT policies. ",
+          "Installed and maintained CCTV/IP cameras, network printers, UPS systems, and audio-video conferencing equipment; managed IT asset register and coordinated vendor procurement for hardware and software. "
         ],
-        "technologies": ["React", "Node.js", "TypeScript", "PostgreSQL", "Docker", "AWS"]
+        "technologies": ["MikroTik", "DHCP", "VPN", "Microsoft 365", "AWS"]
       },
       {
         "id": "3",
