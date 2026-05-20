@@ -36,7 +36,7 @@
         "role": "Trainee Web Developer",
         "company": "SoftRobotics",
         "duration": "March 2026 – Present",
-        "location": "Chittagong, Bangladesh",
+        "location": "Chattogram, Bangladesh",
         "type": "Full-time",
         "current": true,
         "description": [
@@ -65,34 +65,19 @@
       },
       {
         "id": "3",
-        "role": "UI/UX & Graphic Designer",
-        "company": "Creative Studio BD",
-        "duration": "Jun 2019 – Feb 2021",
-        "location": "Dhaka, Bangladesh",
+        "role": "UI Designer",
+        "company": "Devenport IT",
+        "duration": "May 2022 – September 2023",
+        "location": "Chattogram, Bangladesh",
         "type": "Full-time",
         "current": false,
         "description": [
-          "Designed brand identities for 30+ clients across retail, healthcare, and fintech sectors",
-          "Created wireframes and prototypes using Figma, reducing developer rework by 40%",
-          "Produced marketing collateral including social media assets, banners, and print materials",
-          "Established a design system used across the agency's client projects"
+          "Designed intuitive user interfaces and end-to-end user workflows for Android, iOS, and web platforms, adhering to mobile OS UI/UX standards and current design trends. ",
+          "Conceptualized and produced multimedia assets for digital media applications using Adobe Photoshop and Illustrator, maintaining brand consistency across all platforms. ",
+          "Worked closely with developers and product teams to translate user needs into clean, functional UI designs, ensuring technical feasibility and seamless user experience.",
+          "Maintained structured digital asset libraries and design files to ensure version control, team accessibility, and efficient project delivery under tight deadlines. "
         ],
-        "technologies": ["Figma", "Adobe Illustrator", "Photoshop", "After Effects", "InDesign"]
-      },
-      {
-        "id": "4",
-        "role": "Research Assistant",
-        "company": "BRAC University",
-        "duration": "Jan 2018 – May 2019",
-        "location": "Dhaka, Bangladesh",
-        "type": "Part-time",
-        "current": false,
-        "description": [
-          "Assisted in data collection and analysis for 2 published research papers",
-          "Conducted literature reviews and synthesized findings on machine learning applications",
-          "Developed data cleaning scripts in Python reducing preprocessing time by 70%"
-        ],
-        "technologies": ["Python", "R", "SPSS", "LaTeX", "Excel"]
+        "technologies": ["Figma", "Adobe Illustrator", "Photoshop", "After Effects", " Responsive design", "Adobe XD"]
       }
     ],
 
