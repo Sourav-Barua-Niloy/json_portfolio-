@@ -38,10 +38,10 @@
         "type": "Full-time",
         "current": true,
         "description": [
-          "Led data pipeline development for 5+ enterprise clients, reducing reporting time by 60%",
-          "Designed interactive Power BI dashboards tracking KPIs for C-suite decision making",
-          "Built predictive models using Python & scikit-learn achieving 87% accuracy on churn prediction",
-          "Mentored a team of 3 junior analysts on best practices in data wrangling and visualization"
+          "Developed responsive, cross-browser interfaces using HTML5, CSS3, JavaScript, React.js, and Next.js with a mobile-first approach.",
+          "Collaborated with UI/UX designers and backend engineers to integrate RESTful APIs and deliver seamless end-to-end user experiences.",
+          "Participated in code reviews, debugging, and QA testing to improve release stability and maintain high quality standards.",
+          "Wrote clean, well-documented, and maintainable code following best practices to support scalable development and smooth team onboarding. "
         ],
         "technologies": ["React", "TypeScript", "Node JS"]
       },
